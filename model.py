@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 
 # Load the model
-model = pickle.load(open('C:/Users/A2/Downloads/rf_model.pkl', 'rb'))
+model = pickle.load(open('rf_model.pkl', 'rb'))
 
 # Define input function
 def user_input():
